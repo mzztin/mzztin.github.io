@@ -1,0 +1,1 @@
+import{S as s,i as a,s as t,e as c,c as e,b as i,f as l,h as n,k as o,n as r}from"./client.0fd6ee87.js";function h(s){let a;return{c(){a=c("div"),this.h()},l(s){a=e(s,"DIV",{class:!0}),i(a).forEach(l),this.h()},h(){n(a,"class","contact")},m(s,t){o(s,a,t)},p:r,i:r,o:r,d(s){s&&l(a)}}}export default class extends s{constructor(s){super(),a(this,s,null,h,t,{})}}
