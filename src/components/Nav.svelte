@@ -51,6 +51,7 @@
 <nav>
 	<ul>
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">home</a></li>
+		<li><a aria-current="{segment === 'skills' ? 'page' : undefined}" href="skills">skills</a></li>
 		<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact">contact</a></li>
 	</ul>
 </nav>

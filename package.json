@@ -2,10 +2,10 @@
   "name": "mzztin-personal-website",
   "description": "My personal website",
   "version": "0.0.1",
-  "license": "MIT",
+  "license": "GNU",
   "scripts": {
     "dev": "sapper dev",
-    "export": "sapper export --basepath mzztin.github.io --legacy",
+    "export": "sapper export --basepath mzztin --legacy",
     "build": "sapper build --legacy",
     "deploy": "npm run export && node ./scripts/gh-pages.js",
     "start": "node __sapper__/build"

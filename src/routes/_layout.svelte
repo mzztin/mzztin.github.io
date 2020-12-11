@@ -19,8 +19,10 @@
 <svelte:head>
 	<meta property="og:image" content={Image}/>
 	<meta property="og:title" content="Martin - Developer"/>
+	<meta property="og:description" content="Hey! This is my personal website."/>
 	<meta property="og:type" content="website" />
-	<meta name="theme-color" content="#FFFFFF">
+	<meta name="theme-color" content="#FFFFFF" />
+	<link rel="icon" href={Image}>
 </svelte:head>
 
 <Nav {segment}/>
